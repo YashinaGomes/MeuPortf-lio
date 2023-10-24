@@ -333,8 +333,8 @@ footer nav ul {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 }
-/* Estilos para celular (máximo: 415px) */
-@media (max-width: 415px) {
+
+@media (max-width: 480px) {
   header {
     margin: 6rem;
     /* Reduz a margem do cabeçalho para celulares */
@@ -350,12 +350,7 @@ footer nav ul {
     padding: 0.5rem;
     /* Reduz o espaçamento entre os itens do menu para celulares */
   }
-  .curriculo {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    color: rgba(255, 255, 255, 0.90);
-    font-size: 17px;
-    flex-direction: column;
-  }
+
   .formContainer {
     margin: 1rem auto;
     /* Ajusta a margem do formulário para celulares */
@@ -378,23 +373,20 @@ footer nav ul {
     color: #FFFBF6;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 17px;
-    margin-top: 2rem;
 
   }
 
   main section {
     box-shadow: 0px 4px 4px 0px #00000040;
-    width: 360px;
+    width: 290px;
     height: 537px;
     flex-shrink: 0;
     border-radius: 731px;
     border: 19px solid rgba(197, 170, 148, 0.47);
     background: rgba(220, 173, 131, 0.49);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-   
-    
   }
-}
+
   .hamburger-menu {
     display: none;
     /* Ocultar o menu hamburguer em telas maiores */
