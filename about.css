@@ -209,6 +209,7 @@ footer nav ul {
       right: auto;
       /* Remova a posição absoluta */
       margin-top: 80rem;
+      
     }
 
     main section {
@@ -247,6 +248,7 @@ footer nav ul {
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+      margin-top: 44rem;
     }
 
   }
