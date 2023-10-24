@@ -289,17 +289,13 @@ main {
   }
 
   .woman {
-    margin-left: 1.6rem;
+    margin-left: 4rem;
     width: 100%;
     /* Defina a largura desejada aqui */
-    width: 317px;
-    height: 290px;
+    width: 340px;
+    height: 298px;
   }
 
-  .inner {
- 
-        
-  }
 
   .postt {
     margin-left: 1.6rem;
@@ -420,7 +416,7 @@ footer nav ul {
 }
 
 /* Estilos para tornar o menu visível em telas menores usando media query */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .hamburger-menu {
     display: block;
   }
